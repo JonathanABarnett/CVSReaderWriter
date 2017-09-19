@@ -17,8 +17,8 @@ public class Main {
         studentList.add(new Student(4, "Doe", "Jane", 13, 3.9, "Freshman", new Date()));
         studentList.add(new Student(6, "Six", "See", 19, 3.9, "Senior", new Date()));
 
-        Reader reader = new Reader();
-        reader.readFile();
+       // Reader reader = new Reader();
+        // reader.readFile();
 
         Writer writer = new Writer();
         writer.writeFile(studentList);

@@ -48,7 +48,6 @@ public class Writer {
                     COMMA_DELIMITER + student.getFirstName() + COMMA_DELIMITER + String.valueOf(student.getAge()) + COMMA_DELIMITER +
                     String.valueOf(student.getGpa()) + COMMA_DELIMITER + student.getGradeLevel() + COMMA_DELIMITER +
                     sdf.format(student.getCreationDate()));
-            System.out.println("student");
         }
     }
 }
